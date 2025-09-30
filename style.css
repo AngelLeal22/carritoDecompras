@@ -18,7 +18,7 @@ h1,h2,p{
     top: 0;
     left: 0;
     right: 0;
-    background-color: rgba(66, 66, 66, 0.89);
+    background-color:#1D1C22;
     height:4rem;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     z-index: 10;
@@ -58,6 +58,7 @@ h1,h2,p{
     margin: 0 auto;
     position: relative;
     color:rgb(255, 255, 255);
+    background-color: #1D1C22
 
 
 }
@@ -68,7 +69,7 @@ h1,h2,p{
     top: 4rem;
     width: 100%;
     right: 0;
-    background-color: #666666dd;
+    background-color: #1d1c22b6;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -90,12 +91,29 @@ td{
     height: 5rem;
     font-weight: 700;
     padding: 1rem 0;
-    border-bottom: 1px solid #3a3a3a;
+    border-bottom: 1px solid #1d1c22b6;
 }
 
 thead{
     height: 2rem;
-     border-bottom: 1px solid #3a3a3a;
+     border-bottom: 1px solid #1d1c22b6;
+}
+
+#btnC{
+       padding: 1rem;
+    margin-top: 9rem;
+    cursor: pointer;
+    background-color: rgb(117 182 36);
+    font-weight: 700;
+    color: aliceblue;
+    border-radius: 0.5rem;
+    transition: all 0.3s ease-in;
+
+
+}
+
+#btnC:hover{
+    background-color: rgb(70, 114, 17);
 }
 
 #table-clear{
@@ -139,6 +157,17 @@ thead{
     gap: 1rem;
     
 }
+
+.ini,a{
+    font-size: 700;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    cursor: pointer;
+    font-size:larger;
+    text-decoration: none;
+    color: #ffffff;
+    
+}
+
 
 #hero-content{
     height: 100%;
@@ -203,7 +232,7 @@ input{
 
 #info{
     padding: 1rem;
-    background-color:rgba(66, 66, 66, 0.89);
+    background-color:#1D1C22
     
 
 }
@@ -222,10 +251,17 @@ input{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color:rgba(66, 66, 66, 0.89);
+    background-color:#1D1C22
     
    
     
+}
+#logo{
+ position: absolute;
+ margin-top: -25px;
+ margin-left: -110px;
+ height: 85px;
+ width: 85px;
 }
 
 #juegos-container{
