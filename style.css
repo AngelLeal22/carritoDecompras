@@ -150,7 +150,7 @@ thead{
 
     /* esto es para indicar que calcule el 100 de la pantalla MENOS la barra de navegacion */
     height: calc(100vh - 4rem); 
-    background-image: url("/images/129193.jpg"); 
+    background-image: url("images/129193.jpg"); 
     background-position: center;
     background-size: cover;
     padding: 0.1rem;
